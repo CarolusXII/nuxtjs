@@ -1,4 +1,4 @@
-export const state = {
+export const state = () => ({
   /**фейковая бд с юзерами*/
   users: [
     {login: '1', password: '1', first_name: 'Alexey', second_name: 'Scherbakov', img: '/leha.png', age: 31},
@@ -6,7 +6,7 @@ export const state = {
   ],
 
   auth_user: {}
-}
+})
 
 export const mutations = {
   setAuthUser: (state, user_data) => {
