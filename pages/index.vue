@@ -19,7 +19,7 @@
             v-bind="attrs"
             @click="notification.model = false"
           >
-            close
+            <v-icon>mdi-close</v-icon>
           </v-btn>
         </template>
       </v-snackbar>
