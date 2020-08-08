@@ -2,7 +2,7 @@
   <v-card>
     <v-container grid-list-md>
       <v-form ref="form" v-model="valid">
-        <v-col xs12>Authorization</v-col>
+        <v-col xs12>Авторизация</v-col>
         <v-col xs="12">
           <v-text-field
             outlined
